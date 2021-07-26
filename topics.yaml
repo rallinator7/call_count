@@ -1,0 +1,7 @@
+topics:
+- name: call_counts
+  numPartitions: 3
+  replicationFactor: 1
+  configEntries:
+    - configName: cleanup.policy
+      configValue: compact
